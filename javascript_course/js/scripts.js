@@ -35,7 +35,7 @@ console.log(url.replace("https://" , " ")); */
 Lesson 7 - dataTypes - numbers
 ********************************* */
 
-var num1 = 7;
+/* var num1 = 7;
 var num2 = 3;
 console.log(num1 + num2);
 console.log(num1 * num2);
@@ -50,5 +50,26 @@ console.log(Math.sqrt(36));
 
 console.log(Math.random());
 console.log(Math.random()*100);
-console.log(Math.round(Math.random()*100));
+console.log(Math.round(Math.random()*100)); */
 
+/* ********************************
+Lesson 8 - dataTypes - booleans
+********************************* */
+
+var value = 200
+console.log(value < 100);
+console.log(value > 100);
+console.log(value <= 200);
+console.log(value >= 201);
+
+var password = "1234a"
+var confirmPassword = "123a"
+
+console.log(password == confirmPassword);
+
+var financeValue = 800
+
+if (financeValue >= 1000) {
+    console.log("You are elegible for finance options");
+} else
+    console.log("You do not qualify for finance");
